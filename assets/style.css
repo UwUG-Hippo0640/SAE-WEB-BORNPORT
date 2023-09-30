@@ -1,0 +1,25 @@
+table, td, th{
+    margin-left : 800px ;
+    margin-top: 200px;
+     text-align: center;
+     border: 1.5px solid  #aaaaaa;
+     border-collapse:collapse;
+     padding: 8px;
+
+
+   }
+
+   header {
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    line-height: 150%;
+  }
+
+  img{
+    margin-left : 50px  ;
+    position: relative;
+  }
