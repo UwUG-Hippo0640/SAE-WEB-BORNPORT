@@ -5,8 +5,13 @@ table, td, th{
      border: 1.5px solid  #aaaaaa;
      border-collapse:collapse;
      padding: 8px;
+<<<<<<< HEAD
 
 
+=======
+     
+     
+>>>>>>> c5be866d5b0ad115f74f635fdb5515d12e8b9438
    }
 
    header {
@@ -22,4 +27,9 @@ table, td, th{
   img{
     margin-left : 50px  ;
     position: relative;
+<<<<<<< HEAD
   }
+=======
+  }
+  
+>>>>>>> c5be866d5b0ad115f74f635fdb5515d12e8b9438
