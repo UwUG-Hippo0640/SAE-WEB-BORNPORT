@@ -69,9 +69,13 @@ footer {
   padding-right: 20px;
 }
 
+.flechedroite:hover{
+  color: #F6E58E;
+}
+
 .flechegauche {
   text-decoration: none;
-  color: #FFD400;
+  color: #D2D2CE;
   margin-top: 5%;
   float: left;
   font-size: 200px;
@@ -119,4 +123,18 @@ footer {
 
 .ML_H3 {
   line-height: 10%;
+}
+
+.contenu {
+  font-family: Poppins;
+  color: white;
+  font-size: 125%;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+}
+
+.imageportnuit {
+  width: 60%;
+  border: 2px #000000 solid;
 }
