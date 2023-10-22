@@ -45,6 +45,7 @@ footer {
   padding-bottom: 25px;
   text-align: center;
   border: 2px #000000 solid;
+  font-family: Roboto;
 }
 
 .ML {
@@ -126,15 +127,16 @@ footer {
 }
 
 .contenu {
-  font-family: Poppins;
+  font-family: Roboto;
   color: white;
   font-size: 125%;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 350px;
+  padding-right: 350px;
   text-align: center;
 }
 
 .imageportnuit {
+  margin-top: 65px;
   width: 60%;
   border: 2px #000000 solid;
 }
