@@ -39,10 +39,10 @@ footer {
   position: absolute;
   top: 40px;
   background-color: #EDECE4;
-  margin-left: 450px;
-  width: 600px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-left: 30%;
+  width: 750px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
   border: 2px #000000 solid;
 }
