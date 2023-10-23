@@ -74,9 +74,13 @@ footer {
   color: #F6E58E;
 }
 
+.flechegauche:hover{
+  color: #F6E58E;
+}
+
 .flechegauche {
   text-decoration: none;
-  color: #D2D2CE;
+  color: #FFD400;
   margin-top: 5%;
   float: left;
   font-size: 200px;
@@ -127,17 +131,29 @@ footer {
 }
 
 .contenu {
+  margin-top: 50px;
   font-family: Roboto;
   color: white;
-  font-size: 140%;
+  font-size: 150%;
   padding-left: 350px;
   padding-right: 350px;
-  text-align: center;
+  text-align: justify;
   line-height: 175%;
 }
 
-.imageportnuit {
+.imageport_fret {
+  float: left;
   margin-top: 30px;
-  width: 50%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 33%;
+  border: 2px #000000 solid;
+}
+
+.imageport_fret2 {
+  float: right;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 32%;
   border: 2px #000000 solid;
 }
