@@ -146,6 +146,11 @@ footer {
   border: 2px #000000 solid;
 }
 
+.marchandise {
+  width: 40%;
+  border: 2px #000000 solid;
+}
+
 .main {
   display: block;
   position: relative;
