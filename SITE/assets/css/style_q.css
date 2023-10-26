@@ -151,6 +151,11 @@ footer {
   border: 2px #000000 solid;
 }
 
+.cotes {
+  width: 40%;
+  border: 2px #000000 solid;
+}
+
 .main {
   display: block;
   position: relative;
@@ -308,6 +313,11 @@ nav {
 @media only screen 
 and (max-device-width: 414px) 
 and (max-device-height: 767px) {
+
+  .cotes {
+    width: 70%;
+    border: 2px #000000 solid;
+  }
 
   .w3docs {
     position: absolute;
