@@ -147,3 +147,7 @@ footer {
   width: 60%;
   height: 10%;
 }
+
+#viewer {
+  padding-left:485px;
+}

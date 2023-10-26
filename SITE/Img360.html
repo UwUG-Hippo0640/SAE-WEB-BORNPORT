@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <title> </title>
     <link rel="stylesheet" href="assets/css/style_img.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" />
 </head>
 <header>
     <div>
@@ -13,7 +15,7 @@
         <img class="drapeauru" src="assets/img/ru.png" alt="Anglais" />
     </div>
     <div class="titre">
-        <h1>Titre</h1>
+        <h1>Image 360</h1>
     </div>
 </header>
 
@@ -22,23 +24,23 @@
     <a class="flechegauche" href="./Acceuil.html"> ❮ </a>
 
     <!-- Image 360 avec javascript -->
-    <div id="viewer" style="width: 50vw; height: 50vh; margin: auto;"></div>
+    <div id="viewer" style="width: 50vw; height: 50vh;"></div>
 
     <script type="importmap">
-    {
-        "imports": {
-            "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
-            "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+                "@photo-sphere-viewer/core": "https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.module.js"
+            }
         }
-    }
-</script>
-
+    </script>
+    
     <script type="module">
         import { Viewer } from '@photo-sphere-viewer/core';
-
+    
         const viewer = new Viewer({
             container: document.querySelector('#viewer'),
-            panorama: './assets/img/360.jpg',
+            panorama: './assets/img/sphere.jpg',
         });
     </script>
 
