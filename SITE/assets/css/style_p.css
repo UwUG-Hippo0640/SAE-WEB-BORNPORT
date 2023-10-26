@@ -180,6 +180,10 @@ li:hover {
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+}
+
 #icon-menu {
   content: url("../img/hamburger-button-icon-9.png");
   visibility: hidden;
