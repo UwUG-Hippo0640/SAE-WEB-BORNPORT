@@ -149,5 +149,170 @@ footer {
 }
 
 #viewer {
-  padding-left:485px;
+  padding-left:100px;
+  padding-top:50px;
+}
+
+
+.logo2 {
+  display: none;
+}
+
+ul {
+  display: none;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  border-radius: 10%;
+  font-size: 25px;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: #FFD400;
+  border: 3px #000000 solid;
+  font-weight: bold;
+}
+
+#icon-menu {
+  content: url("../img/hamburger-button-icon-9.png");
+  visibility: hidden;
+  width: 60px;
+  height: 50px;
+  background-color: #00777d;
+}
+
+nav {
+  display: none;
+}
+
+@media only screen 
+and (max-device-width: 414px) 
+and (max-device-height: 767px) {
+
+  nav {
+    display: block;
+    padding: 10px;
+  }
+
+  #logoo {
+    padding-top: 200px;
+    margin: 20px;
+    float: left;
+    width: 20px;
+  }
+  .logo {
+    display: none;
+  }
+
+  .logo2 {
+    padding-top: 20px;
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+
+  .titre {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 100%;
+    min-width: 90%;
+    font-size: 50%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .flechedroite {
+    display: none;
+  }
+
+  .flechegauche {
+    display: none;
+  }
+
+  .contenu p {
+    text-align: justify;
+  }
+  .contenu {
+    font-size: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+  }
+
+  .imageportnuit {
+    min-height: 90%;
+    min-width: 90%;
+    margin-top: 80px;
+  }
+
+  footer {
+    height: 15px;
+    position: absolute;
+  }
+
+  .ML {
+    position: relative;
+    bottom: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    height: 5px;
+    width: 150px;
+    padding-left: 10px;
+  }
+
+  .MLtext {
+    position: relative;
+    bottom: 5px;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+  }
+
+  .drapeauf {
+    width: 7%;
+    height: 7%;
+    border-radius: 2px #000000;
+    margin-right: 50px;
+  }
+
+  .drapeauru {
+    width: 7%;
+    height: 7%;
+    border-radius: 2px #000000;
+  }
+
+  #icon-menu {
+    visibility: visible;
+    position: relative;
+    top: 30px;
+  }
+
+  nav ul, nav:active ul {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    padding: 20px;
+    background: #EDECE4;
+    border: 2px #000000 solid;
+    left: 25px;
+    top: 100px;
+    width: 25%;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+  }
 }
