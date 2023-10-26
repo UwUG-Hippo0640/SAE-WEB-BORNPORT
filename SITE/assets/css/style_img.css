@@ -45,6 +45,7 @@ footer {
   padding-bottom: 25px;
   text-align: center;
   border: 2px #000000 solid;
+  font-family: roboto;
 }
 
 .ML {
@@ -130,7 +131,7 @@ footer {
 }
 
 .contenu {
-  font-family: Poppins;
+  font-family: roboto;
   color: white;
   font-size: 125%;
   padding-left: 300px;

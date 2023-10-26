@@ -229,6 +229,7 @@ and (max-device-height: 767px) {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: roboto;
   }
 
   .flechedroite {
@@ -243,6 +244,7 @@ and (max-device-height: 767px) {
     text-align: justify;
   }
   .contenu {
+    font-family: roboto;
     font-size: 100%;
     padding-left: 100px;
     padding-right: 100px;
