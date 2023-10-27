@@ -217,19 +217,26 @@ and (max-device-height: 767px) {
     display: block;
     width: 50%;
     margin: auto;
+    margin-top: -20px;
   }
 
+  h1{
+    margin: auto;
+    margin-right: 60px;
+  }
   .titre {
     position: relative;
     display: block;
     margin: auto;
-    margin-top: 50px;
-    max-width: 100%;
+    margin-top: 10px;
+    width: 100%;
     min-width: 90%;
     font-size: 50%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 20px;
+    margin-left: 0px;
   }
 
   .flechedroite {
@@ -283,19 +290,26 @@ and (max-device-height: 767px) {
     width: 7%;
     height: 7%;
     border-radius: 2px #000000;
-    margin-right: 50px;
+    margin-right:10px;
+    margin-top: 10px;
   }
 
   .drapeauru {
     width: 7%;
     height: 7%;
     border-radius: 2px #000000;
+    margin-right:10px;
+    margin-top: 10px;
   }
 
   #icon-menu {
     visibility: visible;
     position: relative;
     top: 30px;
+    width: 30px;
+    height: 20px;
+    margin-left: -50px;
+    margin-top: -100px;
   }
 
   nav ul, nav:active ul {
@@ -308,6 +322,7 @@ and (max-device-height: 767px) {
     left: 25px;
     top: 100px;
     width: 25%;
+    text-decoration: none;
   }
 
   nav:hover ul {
@@ -320,4 +335,11 @@ and (max-device-height: 767px) {
     padding: 15px 0;
     margin: 0;
   }
+ 
+
+  #viewer {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
 }
